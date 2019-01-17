@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/java-streams-with-pokemon.iml" filepath="$PROJECT_DIR$/.idea/java-streams-with-pokemon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-streams-with-pokemon_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-streams-with-pokemon_main.iml" group="java-streams-with-pokemon" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-streams-with-pokemon_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java-streams-with-pokemon_test.iml" group="java-streams-with-pokemon" />
     </modules>
   </component>
 </project>

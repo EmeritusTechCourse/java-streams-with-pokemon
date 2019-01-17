@@ -1,6 +1,3 @@
-
-package com.galvanize.streams;
-
 import java.util.HashMap;
 import java.util.Map;
 import com.fasterxml.jackson.annotation.JsonAnyGetter;
