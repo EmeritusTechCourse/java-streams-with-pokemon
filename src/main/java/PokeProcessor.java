@@ -16,7 +16,7 @@ public class PokeProcessor {
 
     public void loadPokemons(Optional<String> pathOpt) throws IOException, URISyntaxException {
         try{
-            String path = pathOpt.isPresent() ? pathOpt.get() : "pokeData.json";
+            String path = pathOpt.orElse("pokeData.json");
             URL url = this.getClass().getClassLoader().getResource(path);
             String jsonString = new String(Files.readAllBytes(Paths.get(url.toURI())));
             ObjectMapper objectMapper = new ObjectMapper();
