@@ -3,9 +3,8 @@ import java.net.URISyntaxException;
 import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
+
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.type.TypeFactory;
 
@@ -32,8 +31,8 @@ public class PokeProcessor {
         return pokemons.size();
     }
     // list all Pokemon by name
-    public ArrayList<Pokemon> listPokemon() {
-        return new ArrayList<Pokemon>();
+    public ArrayList<String> listPokemon() {
+        return new ArrayList<String>();
     }
 
     // return an array of Pokemon that have 3 weaknesses
@@ -52,14 +51,14 @@ public class PokeProcessor {
         return new ArrayList<String>();
     }
 
-    // names of Pokemon resistant to a supplied type of attack
-    public ArrayList<String> pokemonResistantByAttack(String attack) {
-        return new ArrayList<String>();
+    // Pokemon resistant to a supplied type of attack
+    public ArrayList<Pokemon> pokemonResistantByAttackType(String attack) {
+        return new ArrayList<Pokemon>();
     }
 
-    // number of Pokemon resistant to each type of attack
-    public Integer numOfPokemonResistantByAttack() {
-        return 0;
+    // Map of attack types and the number of Pokemon resistant to each type of attack
+    public Map<String, Integer> numOfPokemonResistantByAttackType() {
+        return new HashMap<String,Integer>();
     }
 
     // list types of fast attacks
