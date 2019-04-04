@@ -31,7 +31,7 @@ So that I can learn enough to create the perfect deck!
 #####Acceptance Criteria
 * `listPokemon` should return a list of names of all pokemon.
 * `pokemonWith3Weaknesses` should return a list of all pokemon with 3 weaknesses
-* ~~`calculateAverageMaxHP` should calculate the average MaxHP of all pokemon.~~ <span style="color:red"> Don't worry about this one, the seed JSON data doesn't support this problem </span>
+* ~~`calculateAverageMaxHP` should calculate the average MaxHP of all pokemon.~~ <span style="color:red;"> Don't worry about this one, the seed JSON data doesn't support this problem </span>
 * `listWeaknesses` should return a list of all weaknesses.
 * `pokemonResistantByAttack` should return a list of pokemon resistant to a given attack.
 * `numOfPokemonResistantByAttack` should return an object with each type of attack and the number of pokemon that are resistant to that attack.
